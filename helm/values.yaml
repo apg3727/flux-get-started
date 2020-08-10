@@ -1,0 +1,11 @@
+git: 
+  url: git@github.com:apg3727/flux-get-started
+  branch: master
+  pollInterval: "1m"
+  secret.enabled: true
+  
+  secret: true
+sync:
+  interval: "1m"
+  
+gpgKeys.secretName: helm/fluxkey.asc
