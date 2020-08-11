@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: key-secret
+  namespace: auto
+data:
+  SECRET: ABC1234567
